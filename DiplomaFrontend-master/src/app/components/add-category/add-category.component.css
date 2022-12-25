@@ -1,0 +1,139 @@
+@media (min-width: 542px) {
+    .dialog-container {
+        width: 535px;
+        min-height: 70px;
+        max-height: 530px;
+    }
+
+    mat-dialog-actions {
+        display: flex;
+        justify-content: left;
+        padding: 0;
+        margin-left: 4px;
+        margin-bottom: 1px;
+    }
+
+    mat-form-field {
+        width: 450px;
+        margin-right: 15px;
+    }
+
+    .template-class {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        border-bottom: 1px solid white;
+    }
+    .some-class-button{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .class-info-h1{
+        margin-top: 10px;
+    }
+}
+
+@media (max-height: 350px) {
+    .template-class {
+        margin-left: 26px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .some-class-button{
+        height: 100%;
+    }
+}
+
+@media (max-width: 541px) {
+    .dialog-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    mat-dialog-actions {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .bot-button {
+        margin: 10px 0;
+    }
+
+    .template-class {
+        /*margin-left: 26px;*/
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*height: 100%;*/
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    .some-class-button{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .class-info-h1{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+.some-class {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    /*margin-left: 10px;*/
+    color: white;
+}
+
+mat-label {
+    color: white;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1em;
+}
+
+a:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+mat-list {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-remove {
+    height: 40px;
+    margin-top: 44px;
+}
+
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: white;
+}
+
+input.mat-input-element {
+    padding-top: 1px;
+}
+

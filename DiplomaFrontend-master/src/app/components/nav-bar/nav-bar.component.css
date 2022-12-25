@@ -1,0 +1,121 @@
+@media (min-width: 1110px) {
+    .spacer {
+        flex: 1 1 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-width: 50px;
+    }
+
+    #user {
+        width: 200px;
+        cursor: default;
+        text-align: right;
+    }
+
+    #nav-item {
+        cursor: default;
+        min-width: 50px;
+        max-width: 260px;
+    }
+
+    #exit {
+        text-align: right;
+        width: 60px;
+    }
+
+    #exit:hover {
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 16px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+        font: 500 18px/30px Roboto, "Helvetica Neue", sans-serif;
+        letter-spacing: normal;
+        color: #fff;
+        max-width: 100%;
+        height: 70px;
+        background: radial-gradient(425.02px at 50% 50%, #104D82 0%, #234161 100%);
+    }
+    .img {
+        padding-top: 7px;
+        text-align: center;
+    }
+    .img-class{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 1109px) {
+
+    nav{
+        display: flex;
+        box-sizing: border-box;
+        /*padding: 0 16px;*/
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        font: 400 100% Roboto, "Helvetica Neue", sans-serif;
+        letter-spacing: normal;
+        color: #fff;
+        max-width: 100%;
+        background: radial-gradient(425.02px at 50% 50%, #104D82 0%, #234161 100%);
+        min-height: 70px;
+    }
+
+    #exit:hover {
+        cursor: pointer;
+    }
+    #user {
+        /*width: 200px;*/
+        cursor: default;
+        text-align: right;
+    }
+
+    #nav-item {
+        padding-top: 10px;
+        text-align: center;
+        cursor: default;
+        font: 400 115% Roboto, "Helvetica Neue", sans-serif;
+        /*min-width: 50px;*/
+        /*max-width: 260px;*/
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 50px;
+    }
+
+    #exit {
+        text-align: right;
+        border-bottom: 1px solid white;
+        /*width: 60px;*/
+    }
+    .img-class{
+        text-align: center;
+        /*height: 0%;*/
+        height: 21px;
+        display: flex;
+        align-items: center;
+    }
+    .img{
+        height: 22px;
+    }
+    .image-class{
+        /*margin-right: 5px;*/
+    }
+}

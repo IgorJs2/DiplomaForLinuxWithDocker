@@ -1,0 +1,22 @@
+<body>
+<div id="bg"></div>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="form-field">
+        <input type="text" placeholder="Ім'я користувача" formControlName="username">
+    </div>
+
+    <div class="form-field">
+        <input type="password" placeholder="Пароль" formControlName="password">
+    </div>
+
+    <div class="form-field">
+        <button class="btn" type="submit" (click)="submit()">Вхід</button>
+    </div>
+    <div class="error" *ngIf="errorMessage">
+        {{errorMessage}}
+    </div>
+</form>
+
+
+</body>

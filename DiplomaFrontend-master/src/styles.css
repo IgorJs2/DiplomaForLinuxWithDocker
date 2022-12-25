@@ -1,0 +1,97 @@
+body {
+    background-color: #dee4e7;
+    margin: 0;
+    padding: 0;
+    /*disable select*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/*popup 'X' close */
+.close-button {
+    color: white;
+    float: right;
+    top: -24px;
+    right: -24px;
+    cursor: pointer;
+}
+
+/*bg pop-up*/
+.mat-dialog-container {
+    background: #31486c;
+}
+
+/*padding inside input */
+.mat-form-field-infix {
+    padding-left: 8px;
+}
+
+/*padding between label and input*/
+input.mat-input-element {
+    padding-top: 8px;
+}
+@media (max-width: 541px) {
+
+    .create-category .mat-dialog-container {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        max-width: unset !important;
+        box-sizing: border-box;
+        border-radius: unset;
+    }
+
+    .create-category {
+        max-width: unset !important;
+    }
+    .create-category .mat-form-field {
+        width: 90%;
+    }
+    .retrieve-category .mat-dialog-container {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        max-width: unset !important;
+        box-sizing: border-box;
+        border-radius: unset;
+    }
+    .retrieve-category {
+        max-width: unset !important;
+    }
+    .retrieve-category .mat-form-field {
+        width: 90%;
+    }
+}
+
+@media (max-height: 350px) {
+    .create-category .mat-dialog-container {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        max-width: unset !important;
+        box-sizing: border-box;
+        border-radius: unset;
+    }
+
+    .create-category {
+        max-width: unset !important;
+    }
+    .create-category .mat-form-field {
+        width: 100%;
+    }
+    .retrieve-category .mat-dialog-container {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        max-width: unset !important;
+        box-sizing: border-box;
+        border-radius: unset;
+    }
+    .retrieve-category {
+        max-width: unset !important;
+    }
+    .retrieve-category .mat-form-field {
+        width: 100%;
+    }
+}

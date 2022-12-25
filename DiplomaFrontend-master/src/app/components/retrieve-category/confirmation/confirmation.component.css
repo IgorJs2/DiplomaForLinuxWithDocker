@@ -1,0 +1,22 @@
+.dialog-container {
+    width: 240px;
+    height: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+mat-dialog-content {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 210px;
+}
+
+button {
+    height: 50px;
+    width: 110px;
+
+}

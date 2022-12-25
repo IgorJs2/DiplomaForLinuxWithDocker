@@ -1,0 +1,359 @@
+[
+  {
+    "model": "api.region",
+    "pk": 1,
+    "fields": {
+      "name": "Вінницька область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 2,
+    "fields": {
+      "name": "Волинська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 3,
+    "fields": {
+      "name": "Дніпропетровська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 4,
+    "fields": {
+      "name": "Донецька область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 5,
+    "fields": {
+      "name": "Житомирська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 6,
+    "fields": {
+      "name": "Закарпатська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 7,
+    "fields": {
+      "name": "Запорізька область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 8,
+    "fields": {
+      "name": "Івано-Франківська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 9,
+    "fields": {
+      "name": "Київська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 10,
+    "fields": {
+      "name": "Кіровоградська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 11,
+    "fields": {
+      "name": "Луганська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 12,
+    "fields": {
+      "name": "Львівська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 13,
+    "fields": {
+      "name": "Миколаївська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 14,
+    "fields": {
+      "name": "Одеська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 15,
+    "fields": {
+      "name": "Полтавська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 16,
+    "fields": {
+      "name": "Рівненська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 17,
+    "fields": {
+      "name": "Сумська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 18,
+    "fields": {
+      "name": "Тернопільська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 19,
+    "fields": {
+      "name": "Харківська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 20,
+    "fields": {
+      "name": "Херсонська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 21,
+    "fields": {
+      "name": "Хмельницька область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 22,
+    "fields": {
+      "name": "Черкаська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 23,
+    "fields": {
+      "name": "Чернівецька область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 24,
+    "fields": {
+      "name": "Чернігівська область"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 25,
+    "fields": {
+      "name": "Автономна Республіка Крим"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 26,
+    "fields": {
+      "name": "Львів"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 27,
+    "fields": {
+      "name": "Київ"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 28,
+    "fields": {
+      "name": "Тернопіль"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 29,
+    "fields": {
+      "name": "Івано-Франкцівськ"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 30,
+    "fields": {
+      "name": "Вінниця"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 31,
+    "fields": {
+      "name": "Дніпро"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 32,
+    "fields": {
+      "name": "Рівне"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 33,
+    "fields": {
+      "name": "Харків"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 34,
+    "fields": {
+      "name": "Хмельницький"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 35,
+    "fields": {
+      "name": "Чернівці"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 36,
+    "fields": {
+      "name": "Луцьк"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 37,
+    "fields": {
+      "name": "Одеса"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 38,
+    "fields": {
+      "name": "Полтава"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 39,
+    "fields": {
+      "name": "Черкаси"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 40,
+    "fields": {
+      "name": "Запоріжжя"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 41,
+    "fields": {
+      "name": "Житомир"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 42,
+    "fields": {
+      "name": "Кропивницький"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 43,
+    "fields": {
+      "name": "Ужгород"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 44,
+    "fields": {
+      "name": "Миколаїв"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 45,
+    "fields": {
+      "name": "Суми"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 46,
+    "fields": {
+      "name": "Херсон"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 47,
+    "fields": {
+      "name": "Чернігів"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 48,
+    "fields": {
+      "name": "Донецьк"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 49,
+    "fields": {
+      "name": "Луганськ"
+    }
+  },
+  {
+    "model": "api.region",
+    "pk": 50,
+    "fields": {
+      "name": "Сімферополь"
+    }
+  },
+    {
+    "model": "api.region",
+    "pk": 51,
+    "fields": {
+      "name": "Севастополь"
+    }
+  }
+]

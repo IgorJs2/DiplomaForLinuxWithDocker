@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  web:
+    build: ./DiplomaBackend-master
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./DiplomaBackend-master/:/usr/src/DiplomaBackend-master/
+    ports:
+      - 8000:8000
+    env_file:
+      - DiplomaBackend-master/.env
+    depends_on:
+      - db
+  db:
+    image: postgres:12.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=diploma
+
+  apache-frontend:
+    build:
+      context: ./DiplomaFrontend-master
+    ports:
+      - 8080:80
+
+
+volumes:
+  postgres_data:

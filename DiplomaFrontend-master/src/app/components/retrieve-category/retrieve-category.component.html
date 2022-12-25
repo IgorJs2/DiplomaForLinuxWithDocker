@@ -1,0 +1,49 @@
+<div *ngIf="!isEdite && !isCreate">
+    <mat-icon class="close-button" [mat-dialog-close]="true" (click)="changeZoom();">close</mat-icon>
+    <h2 mat-dialog-title>{{title}}</h2>
+    <hr>
+    <div class="dialog-container" *ngIf="categories">
+        <mat-list role="list" *ngFor="let category of categories">
+            <a *ngIf="category.url" [href]="category.url" target="_blank">
+                <mat-label>{{category.name}}</mat-label>
+            </a>
+        </mat-list>
+
+    </div>
+    <mat-dialog-actions *ngIf="user">
+        <button mat-stroked-button (click)="edit()">Редагувати
+        </button>
+    </mat-dialog-actions>
+</div>
+
+<div *ngIf="isEdite && !isCreate" class="edit-category">
+    <mat-icon class="close-button" [mat-dialog-close]="true" (click)="changeZoom();">close</mat-icon>
+    <h2 id="h2" mat-dialog-title>{{title}}</h2>
+    <div class="dialog-container-2" [formGroup]="form" *ngIf="form">
+        <div class="some-class" *ngFor="let category of controlNames">
+            <div [formGroupName]="category" class="category-line">
+                <mat-form-field appearance="fill" [hideRequiredMarker]="true">
+                    <mat-label style="margin-bottom: 10px">назва</mat-label>
+                    <input matInput type="text" formControlName="name">
+                </mat-form-field>
+                <mat-form-field appearance="fill" [hideRequiredMarker]="true">
+                    <mat-label>гіперпосилання</mat-label>
+                    <input matInput type="text" formControlName="url">
+                </mat-form-field>
+            </div>
+            <button class="button-remove" mat-raised-button style="background-color:#bf3434;" (click)="removeControl(category);changeZoom();">
+                &#8212;
+            </button>
+        </div>
+        <mat-dialog-actions class="mat-edit-actions">
+            <button class="some-but" mat-stroked-button [disabled]="form.invalid"
+                    (click)="editCategories();changeZoom();">
+                Відправити
+            </button>
+            <button mat-stroked-button (click)="changeCreate()">Додати гіперпосилання</button>
+        </mat-dialog-actions>
+    </div>
+
+</div>
+
+<app-add-view-category *ngIf="isCreate"> </app-add-view-category>

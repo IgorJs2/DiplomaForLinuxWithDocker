@@ -1,0 +1,172 @@
+.mat-dialog-container {
+    background: #31486c;
+}
+
+.dialog-container {
+    min-width: 300px;
+    min-height: 50px;
+    max-height: 300px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
+mat-label {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+
+mat-label:first-child {
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+mat-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: white;
+}
+
+@media (min-width: 724px) {
+    .dialog-container-3 {
+        width: 535px;
+        min-height: 70px;
+        max-height: 530px;
+    }
+
+    .dialog-container-2 {
+        width: 535px;
+        min-height: 70px;
+        max-height: 530px;
+    }
+
+    .some-class {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: -20px;
+    }
+
+    .button-remove {
+        height: 40px;
+        margin-top: 44px;
+    }
+
+    mat-form-field {
+        width: 450px;
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-height: 350px) {
+    .template-class {
+        margin-left: 26px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .some-class-button {
+        height: 100%;
+    }
+    .mat-edit-actions {
+        padding-left: 4px;
+        /*flex-direction: column;*/
+    }
+}
+
+@media (max-width: 720px) {
+    .dialog-container-2 {
+        min-width: 100px;
+        min-height: 70px;
+        max-height: 400px;
+    }
+
+    .some-class {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: -20px;
+    }
+
+    .button-remove {
+        height: 40px;
+        margin-top: 60px;
+    }
+
+    mat-form-field {
+        margin-right: 15px;
+
+    }
+    .some-but{
+        margin-bottom: 10px;
+    }
+    .mat-edit-actions {
+        padding-left: 4px;
+        /*flex-direction: column;*/
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hr {
+    margin-bottom: 10px;
+}
+
+#h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+mat-dialog-actions {
+    padding-left: 9px;
+}
+
+.category-line {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-top: 10px;
+}
